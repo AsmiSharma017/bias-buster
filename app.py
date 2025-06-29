@@ -103,7 +103,7 @@ Text:
 {text}
 """
                 # ───── GEMINI CONFIG ─────
-                genai.configure(api_key=st.secrets["AIzaSyDMs44Hh9ISKizk_rZ_nctJkCpFDOY3Sto"])
+genai.configure(api_key="AIzaSyDMs44Hh9ISKizk_rZ_nctJkCpFDOY3Sto")
 
                 model=genai.GenerativeModel(model_name="models/gemini-1.5-flash")
                 response=model.generate_content(prompt)
