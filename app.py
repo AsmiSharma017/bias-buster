@@ -81,7 +81,6 @@ with col1:
     st.markdown("---")
 
 with col2:
-    st.markdown('<div class="main">',unsafe_allow_html=True)
     st.title("Bias Buster — AI Response Checker")
     st.write("Paste any AI‑generated response; we detect bias and suggest neutral wording.")
 
