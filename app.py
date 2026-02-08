@@ -98,7 +98,7 @@ Return:
 Text:
 {text}
 """
-                genai.configure(api_key="AIzaSyDMs44Hh9ISKizk_rZ_nctJkCpFDOY3Sto")
+                genai.configure(api_key="your_api_key_here")
                 model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
                 response = model.generate_content(prompt)
 
